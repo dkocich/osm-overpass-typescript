@@ -194,9 +194,9 @@ export interface ITags {
     transformer?: string;
     tunnel?: string;
     type?: string;
-    vehicle?: string;
-    vending?: string;
-    voltage?: string;
+    vehicle?: TVehicleOpts;
+    vending?: TVendingOpts;
+    voltage?: TVotlageOpts;
     website?: string;
     wheelchair?: string;
     wikidata?: string;
@@ -207,3 +207,48 @@ export interface IMembersItem {
     ref: number;
     role: string;
 }
+
+    export type 
+export type 
+export type 
+export type 
+export type 
+export type 
+export type
+export type TVehicleOpts =
+    'no' |
+    'yes' |
+    'destination' |
+    'agricultural' |
+    'private' |
+    'forestry' |
+    '(other)'
+export type TVendingOpts =
+    'parking_tickets' |
+    'cigarettes' |
+    'excrement_bags' |
+    'public_transport_tickets' |
+    'drinks' |
+    'fuel' |
+    'parcel_pickup' |
+    'parcel_mail_in' |
+    'sweets' |
+    '(other)';
+export type TVotlageOpts =
+    '25000' |
+    '15000' |
+    '3000' |
+    '1500' |
+    '110000' |
+    '20000' |
+    '750' |
+    '600' |
+    '132000' |
+    '220000' |
+    '138000' |
+    '(other)'
+export type TWheelchairOpts =
+    'yes' |
+    'no' |
+    'limited' |
+    'other'
