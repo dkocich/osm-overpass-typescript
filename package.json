@@ -1,0 +1,15 @@
+{
+  "name": "osm-overpass-typescript",
+  "version": "0.0.1",
+  "description": "TS interfaces for OpenStreetMap/Overpass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dkocich@users.noreply.github.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "5.16.0",
+    "typescript": "3.4.5"
+  }
+}
