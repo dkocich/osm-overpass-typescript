@@ -1,6 +1,6 @@
 {
   "name": "osm-overpass-typescript",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "TS interfaces for OpenStreetMap/Overpass.",
   "main": "index.js",
   "scripts": {},
