@@ -184,16 +184,16 @@ export interface ITags {
     surface?: string;
     surveillance?: string;
     tactile_paving?: string;
-    takeaway?: string;
+    takeaway?: TTakeawayOpts;
     text_color?: string;
     to?: string;
-    toilets?: string;
-    tourism?: string;
+    toilets?: TToiletsOpts;
+    tourism?: TTourismOpts;
     traffic_calming?: string;
-    tram?: string;
-    transformer?: string;
-    tunnel?: string;
-    type?: string;
+    tram?: TTramOpts;
+    transformer?: TTransformerOpts;
+    tunnel?: TTunnelOpts;
+    type?: TTypeOpts;
     vehicle?: TVehicleOpts;
     vending?: TVendingOpts;
     voltage?: TVotlageOpts;
@@ -208,13 +208,59 @@ export interface IMembersItem {
     role: string;
 }
 
-    export type 
-export type 
-export type 
-export type 
-export type 
-export type 
+
+
+
+export type TTakeawayOpts
+  yes
+only
+no
+(other)
+
+
 export type
+  yes
+no
+(other)
+
+export type TTourismOpts =
+information
+hotel
+attraction
+viewpoint
+guest_house
+picnic_site
+artwork
+camp_site
+museum
+hostel
+chalet
+(other)
+
+export type TTramOpts =
+  yes
+(other)
+
+export type TTransformerOpts =
+    distribution
+    minor_distribution
+    yes
+    (other)
+export type TTunnelOpts =
+culvert
+yes
+building_passage
+(other)
+export type TTypeOpts =
+    multipolygon
+    restriction
+    route
+    boundary
+    associatedStreet
+    public_transport
+    site
+    (other)
+
 export type TVehicleOpts =
     'no' |
     'yes' |
