@@ -8,6 +8,6 @@
   "license": "ISC",
   "devDependencies": {
     "tslint": "5.16.0",
-    "typescript": "3.9.7"
+    "typescript": "3.9.8"
   }
 }
